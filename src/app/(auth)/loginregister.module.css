@@ -1,0 +1,20 @@
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form form input,
+.form form button {
+  padding: 8px 10px;
+}
+
+.form form button {
+  cursor: pointer;
+}

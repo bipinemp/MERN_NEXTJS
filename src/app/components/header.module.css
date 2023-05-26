@@ -1,0 +1,42 @@
+.nav {
+  height: 8vh;
+  background-color: black;
+  color: white;
+  padding: 8px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.dropdownmain {
+  position: relative;
+}
+.dropdown {
+  position: absolute;
+  top: 5vh;
+  left: -10px;
+  padding: 5px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.dropdown a,
+.dropdown p {
+  padding: 7px;
+}
+.name {
+  cursor: pointer;
+}
+.name:hover .dropdown {
+  display: block;
+}
